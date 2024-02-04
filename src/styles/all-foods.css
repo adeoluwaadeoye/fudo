@@ -1,0 +1,21 @@
+.search__widget {
+    padding: 7px 15px;
+    border: 1px solid #ffc1c1;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    display: flex;
+    justify-self: center;
+    /* Center the content horizontally */
+}
+
+.search__widget input {
+    border: none;
+    background: transparent;
+    display: block;
+    margin: 0 auto;
+}
+
+.search__widget input:focus {
+    outline: none;
+}

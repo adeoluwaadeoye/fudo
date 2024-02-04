@@ -1,0 +1,68 @@
+/* contact.css */
+
+.contact-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+    /* Bootstrap default background color */
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.contact-info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+/* Form styles */
+
+form {
+    background: #fde4e4;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    /* Bootstrap default input border color */
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 60px 0;
+    }
+}
