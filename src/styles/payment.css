@@ -1,0 +1,100 @@
+/* Default styles */
+.payment__section h2 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.payment__section form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fde4e4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment__section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.payment__section .CardElement {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.payment__section button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.payment__section div[role="alert"] {
+    margin-top: 10px;
+    color: red;
+}
+
+.payment__section input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #888;
+}
+
+.submission-feedback {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.success {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #000000;
+    color: #ffffff;
+    z-index: 1001;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .payment__section h2 {
+        font-size: 1.5rem;
+    }
+
+    .payment__section form {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .payment__section button {
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+
+    .payment__section {
+        margin: 1rem;
+    }
+}

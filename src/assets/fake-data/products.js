@@ -50,7 +50,7 @@ const products = [
 
   {
     id: "03",
-    title: "Double Cheese Margherita",
+    title: "Cheese Margherita",
     price: 7900.00,
     image01: product_03_image_01,
     image02: product_03_image_02,
@@ -62,7 +62,7 @@ const products = [
 
   {
     id: "04",
-    title: "Maxican Green Wave",
+    title: "Spicy Verde",
     price: 7800.00,
     image01: product_04_image_01,
     image02: product_04_image_02,
@@ -85,7 +85,7 @@ const products = [
   },
   {
     id: "06",
-    title: "Royal Cheese Burger",
+    title: "Regal Royal",
     price: 8300.00,
     image01: product_01_image_01,
     image02: product_01_image_02,
@@ -109,7 +109,7 @@ const products = [
 
   {
     id: "08",
-    title: "Thin Cheese Pizza",
+    title: "Cheese Crisp",
     price: 7500.00,
     image01: product_03_image_02,
     image02: product_03_image_01,
@@ -121,7 +121,7 @@ const products = [
 
   {
     id: "09",
-    title: "Pizza With Mushroom",
+    title: "Mushroom Delight",
     price: 8200.00,
     image01: product_04_image_02,
     image02: product_04_image_01,

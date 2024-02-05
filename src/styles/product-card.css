@@ -22,6 +22,7 @@
 
 .product__content h5 {
   margin-bottom: 30px;
+  text-align: left !important;
 }
 
 .product__price {

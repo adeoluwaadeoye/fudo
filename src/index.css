@@ -117,9 +117,14 @@ p {
   border-bottom: 1px solid #666;
 }
 
+.checkout__form {
+  background-color: #f1f1f1;
+}
+
 .checkout__form input {
-  border: none;
+  background: none;
   outline: none;
+  border: none;
   border-bottom: 1px solid #212245;
 }
 
@@ -130,4 +135,10 @@ p {
 .currency__red {
   font-size: 1.5rem !important;
   color: #f23d !important;
+}
+
+.checkout__bill {
+  padding: 20px;
+  background: #fde4e4;
+  font-weight: bold !important;
 }

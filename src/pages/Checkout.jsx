@@ -3,6 +3,7 @@ import {useSelector} from "react-redux";
 import {Container, Row, Col} from "reactstrap";
 import CommonSection from "../components/UI/common-section/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
+import {Link} from "react-router-dom";
 
 import "../styles/checkout.css";
 
@@ -94,7 +95,7 @@ const Checkout = () => {
                   />
                 </div>
                 <button type="submit" className="addTOCart__btn">
-                  Payment
+                  <Link to="/payment">Payment</Link>
                 </button>
               </form>
             </Col>

@@ -29,7 +29,7 @@ const TestimonialSlider = () => {
         </p>
         <div className="slider__content d-flex align-items-center gap-3">
           <img src={avatar1} alt="customer" className="rounded" />
-          <h6>Jane Doe</h6>
+          <h6>Daniel Umukoro</h6>
         </div>
       </div>
 
@@ -38,7 +38,7 @@ const TestimonialSlider = () => {
           "The variety of dishes at Tasty Treat is incredible. I tried their
           burgers, and they were mouthwatering! Great service too."
         </p>
-        <div className="slider__content d-flex align-items-center gap-">
+        <div className="slider__content d-flex align-items-center gap-3">
           <img src={avatar2} alt="customer" className="rounded" />
           <h6>David Morales</h6>
         </div>
